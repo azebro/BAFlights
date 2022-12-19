@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAFlightsProvider", "BAFlightsProvider\BAFlightsProvider.csproj", "{888CF479-F18D-4346-8ABB-5545056173FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightsInfoProvider.Tests", "FlightsInfoProvider.Tests\FlightsInfoProvider.Tests.csproj", "{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBand", "MSBand\MSBand.csproj", "{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|ARM.Build.0 = Debug|ARM
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|x64.ActiveCfg = Debug|x64
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|x64.Build.0 = Debug|x64
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|x86.ActiveCfg = Debug|x86
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Debug|x86.Build.0 = Debug|x86
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|ARM.ActiveCfg = Release|ARM
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|ARM.Build.0 = Release|ARM
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|x64.ActiveCfg = Release|x64
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|x64.Build.0 = Release|x64
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|x86.ActiveCfg = Release|x86
+		{888CF479-F18D-4346-8ABB-5545056173FF}.Release|x86.Build.0 = Release|x86
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|ARM.Build.0 = Debug|ARM
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|x64.ActiveCfg = Debug|x64
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|x64.Build.0 = Debug|x64
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|x64.Deploy.0 = Debug|x64
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|x86.ActiveCfg = Debug|x86
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|x86.Build.0 = Debug|x86
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Debug|x86.Deploy.0 = Debug|x86
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|ARM.ActiveCfg = Release|ARM
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|ARM.Build.0 = Release|ARM
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|ARM.Deploy.0 = Release|ARM
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|x64.ActiveCfg = Release|x64
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|x64.Build.0 = Release|x64
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|x64.Deploy.0 = Release|x64
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|x86.ActiveCfg = Release|x86
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|x86.Build.0 = Release|x86
+		{627ECCF3-6D21-43E2-B8FA-126EF490AA5D}.Release|x86.Deploy.0 = Release|x86
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|ARM.Build.0 = Debug|ARM
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|x64.Build.0 = Debug|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|x86.ActiveCfg = Debug|x86
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|x86.Build.0 = Debug|x86
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Debug|x86.Deploy.0 = Debug|x86
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|ARM.ActiveCfg = Release|ARM
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|ARM.Build.0 = Release|ARM
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|ARM.Deploy.0 = Release|ARM
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|x64.ActiveCfg = Release|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|x64.Build.0 = Release|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|x64.Deploy.0 = Release|Any CPU
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|x86.ActiveCfg = Release|x86
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|x86.Build.0 = Release|x86
+		{8F556BE5-E412-4ED8-B4AD-C78D9ACEFBE7}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://adamze.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BAFlightsProvider\\BAFlightsProvider.csproj
+		SccProjectName1 = BAFlightsProvider
+		SccLocalPath1 = BAFlightsProvider
+		SccProjectUniqueName2 = FlightsInfoProvider.Tests\\FlightsInfoProvider.Tests.csproj
+		SccProjectName2 = FlightsInfoProvider.Tests
+		SccLocalPath2 = FlightsInfoProvider.Tests
+		SccProjectUniqueName3 = MSBand\\MSBand.csproj
+		SccProjectName3 = MSBand
+		SccLocalPath3 = MSBand
+	EndGlobalSection
+EndGlobal
